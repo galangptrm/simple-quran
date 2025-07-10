@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import surat from "../../quran_db//surat/1.json";
+import surat from "../../assets/surat/1.json";
 import Item from "./item";
 
 export default function Home() {

@@ -28,7 +28,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  /* display: flex; */
   place-items: center;
   max-width: 100%;
   min-width: 320px;
@@ -57,6 +57,10 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.font-qpc {
+  font-family: QPC !important;
 }
 
 span .bg-yellow-300 {

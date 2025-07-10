@@ -1,0 +1,573 @@
+{
+  "page": 582,
+  "lines": [
+    {
+      "page_number": 582,
+      "line_number": 1,
+      "line_type": "surah_name",
+      "is_centered": 1,
+      "first_word_id": "",
+      "last_word_id": "",
+      "surah_number": 78,
+      "words": []
+    },
+    {
+      "page_number": 582,
+      "line_number": 2,
+      "line_type": "basmallah",
+      "is_centered": 1,
+      "first_word_id": "",
+      "last_word_id": "",
+      "surah_number": "",
+      "words": []
+    },
+    {
+      "page_number": 582,
+      "line_number": 3,
+      "line_type": "ayah",
+      "is_centered": 0,
+      "first_word_id": 80797,
+      "last_word_id": 80808,
+      "surah_number": "",
+      "words": [
+        {
+          "ar": "ﱁ"
+        },
+        {
+          "ar": "ﱂ"
+        },
+        {
+          "ar": "ﱃ"
+        },
+        {
+          "ar": "ﱄ"
+        },
+        {
+          "ar": "ﱅ"
+        },
+        {
+          "ar": "ﱆ"
+        },
+        {
+          "ar": "ﱇ"
+        },
+        {
+          "ar": "ﱈ"
+        },
+        {
+          "ar": "ﱉ"
+        },
+        {
+          "ar": "ﱊ"
+        },
+        {
+          "ar": "ﱋ"
+        },
+        {
+          "ar": "ﱌ"
+        }
+      ]
+    },
+    {
+      "page_number": 582,
+      "line_number": 4,
+      "line_type": "ayah",
+      "is_centered": 0,
+      "first_word_id": 80809,
+      "last_word_id": 80820,
+      "surah_number": "",
+      "words": [
+        {
+          "ar": "ﱍ"
+        },
+        {
+          "ar": "ﱎ"
+        },
+        {
+          "ar": "ﱏ"
+        },
+        {
+          "ar": "ﱐ"
+        },
+        {
+          "ar": "ﱑ"
+        },
+        {
+          "ar": "ﱒ"
+        },
+        {
+          "ar": "ﱓ"
+        },
+        {
+          "ar": "ﱔ"
+        },
+        {
+          "ar": "ﱕ"
+        },
+        {
+          "ar": "ﱖ"
+        },
+        {
+          "ar": "ﱗ"
+        },
+        {
+          "ar": "ﱘ"
+        }
+      ]
+    },
+    {
+      "page_number": 582,
+      "line_number": 5,
+      "line_type": "ayah",
+      "is_centered": 0,
+      "first_word_id": 80821,
+      "last_word_id": 80829,
+      "surah_number": "",
+      "words": [
+        {
+          "ar": "ﱙ"
+        },
+        {
+          "ar": "ﱚ"
+        },
+        {
+          "ar": "ﱛ"
+        },
+        {
+          "ar": "ﱜ"
+        },
+        {
+          "ar": "ﱝ"
+        },
+        {
+          "ar": "ﱞ"
+        },
+        {
+          "ar": "ﱟ"
+        },
+        {
+          "ar": "ﱠ"
+        },
+        {
+          "ar": "ﱡ"
+        }
+      ]
+    },
+    {
+      "page_number": 582,
+      "line_number": 6,
+      "line_type": "ayah",
+      "is_centered": 0,
+      "first_word_id": 80830,
+      "last_word_id": 80839,
+      "surah_number": "",
+      "words": [
+        {
+          "ar": "ﱢ"
+        },
+        {
+          "ar": "ﱣ"
+        },
+        {
+          "ar": "ﱤ"
+        },
+        {
+          "ar": "ﱥ"
+        },
+        {
+          "ar": "ﱦ"
+        },
+        {
+          "ar": "ﱧ"
+        },
+        {
+          "ar": "ﱨ"
+        },
+        {
+          "ar": "ﱩ"
+        },
+        {
+          "ar": "ﱪ"
+        },
+        {
+          "ar": "ﱫ"
+        }
+      ]
+    },
+    {
+      "page_number": 582,
+      "line_number": 7,
+      "line_type": "ayah",
+      "is_centered": 0,
+      "first_word_id": 80840,
+      "last_word_id": 80849,
+      "surah_number": "",
+      "words": [
+        {
+          "ar": "ﱬ"
+        },
+        {
+          "ar": "ﱭ"
+        },
+        {
+          "ar": "ﱮ"
+        },
+        {
+          "ar": "ﱯ"
+        },
+        {
+          "ar": "ﱰ"
+        },
+        {
+          "ar": "ﱱ"
+        },
+        {
+          "ar": "ﱲ"
+        },
+        {
+          "ar": "ﱳ"
+        },
+        {
+          "ar": "ﱴ"
+        },
+        {
+          "ar": "ﱵ"
+        }
+      ]
+    },
+    {
+      "page_number": 582,
+      "line_number": 8,
+      "line_type": "ayah",
+      "is_centered": 0,
+      "first_word_id": 80850,
+      "last_word_id": 80859,
+      "surah_number": "",
+      "words": [
+        {
+          "ar": "ﱶ"
+        },
+        {
+          "ar": "ﱷ"
+        },
+        {
+          "ar": "ﱸ"
+        },
+        {
+          "ar": "ﱹ"
+        },
+        {
+          "ar": "ﱺ"
+        },
+        {
+          "ar": "ﱻ"
+        },
+        {
+          "ar": "ﱼ"
+        },
+        {
+          "ar": "ﱽ"
+        },
+        {
+          "ar": "ﱾ"
+        },
+        {
+          "ar": "ﱿ"
+        }
+      ]
+    },
+    {
+      "page_number": 582,
+      "line_number": 9,
+      "line_type": "ayah",
+      "is_centered": 0,
+      "first_word_id": 80860,
+      "last_word_id": 80871,
+      "surah_number": "",
+      "words": [
+        {
+          "ar": "ﲀ"
+        },
+        {
+          "ar": "ﲁ"
+        },
+        {
+          "ar": "ﲂ"
+        },
+        {
+          "ar": "ﲃ"
+        },
+        {
+          "ar": "ﲄ"
+        },
+        {
+          "ar": "ﲅ"
+        },
+        {
+          "ar": "ﲆ"
+        },
+        {
+          "ar": "ﲇ"
+        },
+        {
+          "ar": "ﲈ"
+        },
+        {
+          "ar": "ﲉ"
+        },
+        {
+          "ar": "ﲊ"
+        },
+        {
+          "ar": "ﲋ"
+        }
+      ]
+    },
+    {
+      "page_number": 582,
+      "line_number": 10,
+      "line_type": "ayah",
+      "is_centered": 0,
+      "first_word_id": 80872,
+      "last_word_id": 80880,
+      "surah_number": "",
+      "words": [
+        {
+          "ar": "ﲌ"
+        },
+        {
+          "ar": "ﲍ"
+        },
+        {
+          "ar": "ﲎ"
+        },
+        {
+          "ar": "ﲏ"
+        },
+        {
+          "ar": "ﲐ"
+        },
+        {
+          "ar": "ﲑ"
+        },
+        {
+          "ar": "ﲒ"
+        },
+        {
+          "ar": "ﲓ"
+        },
+        {
+          "ar": "ﲔ"
+        }
+      ]
+    },
+    {
+      "page_number": 582,
+      "line_number": 11,
+      "line_type": "ayah",
+      "is_centered": 0,
+      "first_word_id": 80881,
+      "last_word_id": 80890,
+      "surah_number": "",
+      "words": [
+        {
+          "ar": "ﲕ"
+        },
+        {
+          "ar": "ﲖ"
+        },
+        {
+          "ar": "ﲗ"
+        },
+        {
+          "ar": "ﲘ"
+        },
+        {
+          "ar": "ﲙ"
+        },
+        {
+          "ar": "ﲚ"
+        },
+        {
+          "ar": "ﲛ"
+        },
+        {
+          "ar": "ﲜ"
+        },
+        {
+          "ar": "ﲝ"
+        },
+        {
+          "ar": "ﲞ"
+        }
+      ]
+    },
+    {
+      "page_number": 582,
+      "line_number": 12,
+      "line_type": "ayah",
+      "is_centered": 0,
+      "first_word_id": 80891,
+      "last_word_id": 80902,
+      "surah_number": "",
+      "words": [
+        {
+          "ar": "ﲟ"
+        },
+        {
+          "ar": "ﲠ"
+        },
+        {
+          "ar": "ﲡ"
+        },
+        {
+          "ar": "ﲢ"
+        },
+        {
+          "ar": "ﲣ"
+        },
+        {
+          "ar": "ﲤ"
+        },
+        {
+          "ar": "ﲥ"
+        },
+        {
+          "ar": "ﲦ"
+        },
+        {
+          "ar": "ﲧ"
+        },
+        {
+          "ar": "ﲨ"
+        },
+        {
+          "ar": "ﲩ"
+        },
+        {
+          "ar": "ﲪ"
+        }
+      ]
+    },
+    {
+      "page_number": 582,
+      "line_number": 13,
+      "line_type": "ayah",
+      "is_centered": 0,
+      "first_word_id": 80903,
+      "last_word_id": 80912,
+      "surah_number": "",
+      "words": [
+        {
+          "ar": "ﲫ"
+        },
+        {
+          "ar": "ﲬ"
+        },
+        {
+          "ar": "ﲭ"
+        },
+        {
+          "ar": "ﲮ"
+        },
+        {
+          "ar": "ﲯ"
+        },
+        {
+          "ar": "ﲰ"
+        },
+        {
+          "ar": "ﲱ"
+        },
+        {
+          "ar": "ﲲ"
+        },
+        {
+          "ar": "ﲳ"
+        },
+        {
+          "ar": "ﲴ"
+        }
+      ]
+    },
+    {
+      "page_number": 582,
+      "line_number": 14,
+      "line_type": "ayah",
+      "is_centered": 0,
+      "first_word_id": 80913,
+      "last_word_id": 80922,
+      "surah_number": "",
+      "words": [
+        {
+          "ar": "ﲵ"
+        },
+        {
+          "ar": "ﲶ"
+        },
+        {
+          "ar": "ﲷ"
+        },
+        {
+          "ar": "ﲸ"
+        },
+        {
+          "ar": "ﲹ"
+        },
+        {
+          "ar": "ﲺ"
+        },
+        {
+          "ar": "ﲻ"
+        },
+        {
+          "ar": "ﲼ"
+        },
+        {
+          "ar": "ﲽ"
+        },
+        {
+          "ar": "ﲾ"
+        }
+      ]
+    },
+    {
+      "page_number": 582,
+      "line_number": 15,
+      "line_type": "ayah",
+      "is_centered": 0,
+      "first_word_id": 80923,
+      "last_word_id": 80931,
+      "surah_number": "",
+      "words": [
+        {
+          "ar": "ﲿ"
+        },
+        {
+          "ar": "ﳀ"
+        },
+        {
+          "ar": "ﳁ"
+        },
+        {
+          "ar": "ﳂ"
+        },
+        {
+          "ar": "ﳃ"
+        },
+        {
+          "ar": "ﳄ"
+        },
+        {
+          "ar": "ﳅ"
+        },
+        {
+          "ar": "ﳆ"
+        },
+        {
+          "ar": "ﳇ"
+        }
+      ]
+    }
+  ]
+}
