@@ -4,8 +4,12 @@ export async function loadPage(pageNumber) {
 
   try {
     const res = await fetch(url);
-    if (!res.ok) throw new Error(`Page ${pageNumber} not found`);
+    if (!res.ok) {
+      throw new Error(`Page ${pageNumber} not found`);
+    }
+    console.log('URL', url);
     const json = await res.json();
+    console.log('JSON', json);
     return json;
   } catch (err) {
     console.error("loadPage error:", err);

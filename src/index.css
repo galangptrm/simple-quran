@@ -83,3 +83,11 @@ span .bg-yellow-300 {
     background-color: #f9f9f9;
   }
 }
+
+.shadow-r {
+  box-shadow: 5px 5px 5px -5px #1a1a1a;
+}
+
+.shadow-l {
+  box-shadow: -5px 5px 5px -5px #1a1a1a;
+}
