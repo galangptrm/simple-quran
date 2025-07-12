@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 import suratList from "../../assets/surat/daftar_surah.json";
+import juzList from "../../assets/surat/daftar_juz.json";
 
 import { getSurahNameByPage } from '../../assets/js/getSurahNameByPage';
 import { loadPage } from "../../assets/js/loadPage";
@@ -25,6 +26,7 @@ export default function Pages() {
     const [shadowPos, setShadow] = useState("shadow-r")
     const [loading, setLoading] = useState(true);
     const [direction, setDirection] = useState("forward"); // or "backward"
+    // const [surahNamesIndex, setSurahNamesIndex] = useState(0);
 
     // const [surahNames, setSurahNames] = useState([]);
     let surahNames = []
@@ -32,6 +34,11 @@ export default function Pages() {
         surahNames = getSurahNameByPage(suratList.data, page)
         console.log('Surat list', surahNames);
     }
+
+    function getJuzNumber(pageNumber) {
+        return juzList.data.filter(juz => pageNumber >= juz.page && pageNumber < juz.page_end)[0].id;
+    }
+    let juzNumber = getJuzNumber(page)
 
     useEffect(() => {
         let cancelled = false;
@@ -58,7 +65,7 @@ export default function Pages() {
         });
 
         // Preload surrounding fonts asynchronously
-        preloadNearbyFonts(page);
+        // preloadNearbyFonts(page);
     
         return () => {
             cancelled = true; // stop stale async updates
@@ -83,14 +90,14 @@ export default function Pages() {
           transition: { duration: 0.5, ease: "easeIn" },
         }),
     };    
-    
+    let surahNamesIndex = 0
     return (
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col min-h-screen w-screen">
 
-            <Header surahNames={surahNames}/>
+            <Header surahNames={surahNames} juzNumber={juzNumber}/>
 
             {/* Main Content */}
-            <main key={page} className={`flex-1 p-4 ${shadowPos}`} style={{ fontFamily : fontName }}>
+            <main key={page} className={`flex-1 flex items-center justify-center p-4`} style={{ fontFamily : fontName }}>
                 <AnimatePresence mode="wait" custom={direction}>
 
                 {!loading && data.lines && (
@@ -103,9 +110,14 @@ export default function Pages() {
                         exit="exit"
                         className="inset-0 p-4">
 
-                        {data.lines.map((line, i) => (
-                            <LineItem key={`page-${line.page_number}-line-${line.line_number}`} line={line} surahNames={surahNames} surahNamesIndex={i}/>
-                        ))}
+                        {data.lines.map((line) => {
+                            if (line.line_type == "surah_name") {
+                                surahNamesIndex++
+                            }
+                            return (
+                                <LineItem key={`page-${line.page_number}-line-${line.line_number}`} line={line} surahNames={surahNames} surahNamesIndex={surahNamesIndex}/>
+                            )
+                        })}
                     </motion.div>
                 )}
                 </AnimatePresence>
