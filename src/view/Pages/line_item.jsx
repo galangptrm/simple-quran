@@ -6,11 +6,11 @@ export default function LineItem({line, surahNames, surahNamesIndex=0}) {
         surah_name = surahNames[surahNamesIndex-1].surat_name
     }
     return (
-        <div key={`page-${line.page_number}-line-${line.line_number}`} className="py-1 text-base md:text-lg lg:text-lg  w-screen">
+        <div key={`page-${line.page_number}-line-${line.line_number}`} className="py-1 md:py-3 lg:py-1 md:my-3 lg:my-3 xl:my-1 text-base md:text-3xl lg:text-3xl xl:text-xl w-screen">
             {line.line_type === "surah_name" && (
                 <>
                 <hr />
-                <p style={{ textAlign: line.is_centered ? "center" : "justify" }} className="text-sm md:text-md lg:text-lg font-bold">
+                <p style={{ textAlign: line.is_centered ? "center" : "justify" }} className="text-sm md:text-xl lg:text-2xl font-bold">
                     Surah {surah_name}
                 </p>
                 <hr />

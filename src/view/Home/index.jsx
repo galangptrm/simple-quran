@@ -2,14 +2,15 @@ import suratList from "../../assets/surat/daftar_surah.json";
 
 export default function Home() {
     return (
-        <div className="w-100 mx-auto py-6 text-white">
-        {/* {Object.entries(groupedSurahs).map(([juz, surahList]) => ( */}
+      <>
+        <div className="sticky top-0 bg-black z-10 p-4">
+          <h2 className="text-lg text-white font-medium">
+            Daftar Surat
+          </h2>
+        </div>
+        <div className="w-full mx-auto px-4 py-6">
           <div key={1} className="mb-6">
-            {/* <h2 className="text-sm text-gray-400 font-medium mb-2">Juz' {1}</h2> */}
-            <h2 className="text-lg text-gray-400 font-medium mb-2 p-6">
-              Daftar Surat
-            </h2>
-            <div className="space-y-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
               {suratList.data.map((surah) => (
                 <a key={surah.id} href={`/page/${surah.page}`} className="flex items-center justify-between bg-white-800 p-6 rounded hover:bg-gray-100 transition">
                   <div className="w-80">
@@ -25,7 +26,7 @@ export default function Home() {
               ))}
             </div>
           </div>
-
-      </div>
+        </div>
+      </>
     );
 }

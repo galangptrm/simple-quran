@@ -1,10 +1,7 @@
 import fs from "fs-extra";
-import path from "path";
 import Database from "better-sqlite3";
 
 // ❶  open databases
-// const layoutDB = new Database("./raw/mushaf_layout.sqlite", { readonly: true });
-// const wordsDB  = new Database("./raw/quran_words.sqlite",  { readonly: true });
 const layoutDB = new Database("./src/db/layout-quran_utsmani.db", { readonly: true });
 const wordsDB  = new Database("./src/db/words-qpc-v4.db",  { readonly: true });
 
@@ -34,12 +31,12 @@ for (const row of linesStmt.iterate()) {
 }
 
 // ❹  write JSON per page
-await fs.ensureDir("./src/assets/pages");
+await fs.ensureDir("./public/assets/pages");
 for (const [num, lines] of Object.entries(pages)) {
   await fs.writeJSON(
-    `./src/assets/pages/page${num.padStart(3, "0")}.json`,
+    `./public/assets/pages/page${num.padStart(3, "0")}.json`,
     { page: Number(num), lines },
     { spaces: 2 }
   );
 }
-console.log("✅ 604 pages generated");
+console.log("✅ 604 pages generated to /public/assets/pages");
