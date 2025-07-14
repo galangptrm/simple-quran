@@ -32,7 +32,6 @@ export default function Pages() {
     let surahNames = []
     if (suratList.data) {
         surahNames = getSurahNameByPage(suratList.data, page)
-        console.log('Surat list', surahNames);
     }
 
     function getJuzNumber(pageNumber) {

@@ -1,4 +1,5 @@
 import suratList from "../../assets/surat/daftar_surah.json";
+import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
@@ -12,7 +13,7 @@ export default function Home() {
           <div key={1} className="mb-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
               {suratList.data.map((surah) => (
-                <a key={surah.id} href={`/page/${surah.page}`} className="flex items-center justify-between bg-white-800 p-6 rounded hover:bg-gray-100 transition">
+                <Link key={surah.id} to={`/page/${surah.page}`} className="flex items-center justify-between bg-white-800 p-6 rounded hover:bg-gray-100 transition">
                   <div className="w-80">
                     <p className="text-base font-semibold">
                       {surah.id}. {surah.surat_name}
@@ -22,7 +23,7 @@ export default function Home() {
                     </p>
                   </div>
                   <span className="text-base text-gray-400">{surah.page}</span>
-                </a>
+                </Link>
               ))}
             </div>
           </div>
