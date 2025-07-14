@@ -14,7 +14,7 @@ export async function loadFontForPage(pageNumber) {
 
   if (loadedFonts.has(fontName)) return fontName;
 
-  const url = `/assets/fonts/pages_font/${fontKey}`;
+  const url = `${import.meta.env.BASE_URL}/assets/fonts/pages_font/${fontKey}`;
   const font = new FontFace(fontName, `url(${url})`, { display: "swap" });
 
   try {
